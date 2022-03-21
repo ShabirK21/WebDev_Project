@@ -1,0 +1,17 @@
+<h1>{{Ptitle}}</h1>
+<div class="container">
+  {{#each books}}
+    <a href={{this.link}} id="articleLinks">
+      <div class="row" id="articleCon">
+        <article class="col-sm-6">
+          <h2>{{this.author}}</h2>
+          <h3>{{this.title}}</h3>
+          <p>{{this.content}}</p>
+        </article>
+        <figure class="col-sm-6" id="authorImgs">
+          <img src={{this.img}} alt={{this.title}} />
+        </figure>
+      </div>
+    </a>
+  {{/each}}
+</div>

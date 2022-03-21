@@ -1,0 +1,107 @@
+* {
+  font-family: "Guardian Text Egyptian Web", Georgia, serif;
+}
+
+/*Navigation Bar Styling*/
+#navigationbar div h1 {
+  text-align: center;
+  margin-top: 5px;
+  border-bottom: lightgray 2px solid;
+}
+#navigationbar div h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbarNavAltMarkup {
+  font-size: x-large;
+}
+
+#navbarlinks {
+  margin: 0 10px 10px 10px;
+}
+
+#navbarlinks:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+#links {
+  border-bottom: lightgray 2px solid;
+}
+
+.main-btn {
+  margin: 10px 10px 0px 10px;
+  height: max-content;
+  width: max-content;
+  font-size: x-large;
+  border-radius: 15px;
+}
+
+.inputBtn {
+  margin: 0px 10px 0px 10px;
+  height: max-content;
+  width: max-content;
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.inputForms {
+  display: none;
+}
+
+.inputForms form {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.inputForms form input {
+  flex: 1;
+  border-radius: 5px;
+  margin-right: 5px;
+  height: 50px;
+  font-size: x-large;
+}
+
+/* Footer Styling*/
+#footer {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: #808080;
+}
+
+#sml {
+  margin: 25px 0;
+  width: 80px;
+  height: 80px;
+}
+
+.fc1 {
+  margin: 35px 0;
+  font-size: xx-large;
+}
+
+#scrollBtn {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#scrollBtn:hover {
+  background-color: #555;
+}

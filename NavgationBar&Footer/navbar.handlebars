@@ -1,0 +1,67 @@
+<div class="container-fluid">
+  <h1><a href="../index.html">{{Ntitle}}</a></h1>
+  <div class="row" id="links">
+    <section class="col-sm-4 d-flex justify-content-sm-start">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          {{#each links}}
+            <div class="navbar-nav" id="navbarlinks">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href={{this.ref}}
+              >{{this.link}}</a>
+            </div>
+          {{/each}}
+        </div>
+      </nav>
+    </section>
+
+    <section class="col-sm-8 d-flex justify-content-sm-end">
+      {{#each extras}}
+        <button
+          type="button"
+          class="btn btn-primary main-btn"
+          id={{this.id}}
+        >{{this.name}}</button>
+      {{/each}}
+    </section>
+    <section id="subscribeForm" class="inputForms">
+      <form>
+        <input
+          id="email"
+          type="text"
+          name="email"
+          placeholder="Please enter your email address here"
+        />
+        <button
+          type="submit"
+          class="btn btn-primary inputBtn"
+          id="emailButton"
+        >Subscribe</button>
+      </form>
+    </section>
+    <section id="recommendForm" class="inputForms">
+      <form>
+        <input name="author" type="text" placeholder="Author" id="author" />
+        <input name="book" type="text" placeholder="Book" id="book" />
+        <button
+          id="recommendButton"
+          type="submit"
+          class="btn btn-primary inputBtn"
+        >Submit</button>
+      </form>
+    </section>
+  </div>
+</div>

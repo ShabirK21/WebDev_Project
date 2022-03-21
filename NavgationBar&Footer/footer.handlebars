@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <section class="col-sm-4">
+      <p class="fc1">{{title}}</p>
+    </section>
+    <section class="col-sm-4">
+      <p class="fc1">{{address}}</p>
+    </section>
+    <section class="col-sm-4">
+      {{#each sml_images}}
+        <img id="sml" src={{this}} class="img-fluid" />
+      {{/each}}
+    </section>
+  </div>
+  <button onclick="topFunction()" id="scrollBtn" title="Go to top">Top</button>
+</div>
