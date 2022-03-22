@@ -15,5 +15,25 @@ main div {
 }
 
 #articleContent {
-  font-size: x-large;
+  font-size: xx-large;
+  margin: 20px auto;
+  padding: auto;
+  max-width: 2000px;
+}
+
+#hmimg {
+  text-align: center;
+}
+
+aside img {
+  width: 100%;
+  height: auto;
+}
+
+#hmimg img {
+  width: 100%;
+  height: 100%;
+  max-width: 2000px;
+  max-height: 1333px;
+  object-fit: cover;
 }

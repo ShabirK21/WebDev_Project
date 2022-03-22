@@ -1,17 +1,16 @@
 articlesT = Handlebars.templates.articles;
 articlesD = {
   authorbook: "Khaled Hosseini | The Kite Runner",
+  content:
+    "<figure id=hmimg ><img src=https://images.indulgexpress.com/uploads/user/imagelibrary/2018/2/21/original/KhaledHosseini.jpg /></figure>" +
+    "There's no question that Khaled Hosseini merits the term 'publishing phenomenon'. His two heart-tugging, blockbuster novels, set in his native Afghanistan, offered simple tales of redemption and grace while the ugly realities of war in the country rumbled through the news. His debut, 2003's , written in the early mornings before work as a doctor, was followed by 2007's A Thousand Splendid Suns. Together they've sold over 38m copies worldwide.<br><br>" +
+    "We meet on the eve of publication of his new novel, in a midtown Manhattan hotel bar where Hosseini expresses relief at finally having a scotch in hand. He has a quiet self-possession, a creased handsomeness to him – perhaps more creased today than usual: mass international appeal also means mass international press demands. He explains that the new novel began with a single image: a man towing a small wagon through the desert at night. In the wagon are two children; a brother and sister.<br><br>" +
+    '"I heard these stories about what a harrowing ordeal wintertime is for families in Afghanistan," he says. "People are terribly afraid and they lose their kids. So, with this background, suddenly this image came out of the blue, delivered with pristine, perfect clarity. And I was like: who are these people? Where are they going?<br><br>' +
+    "The answer – a desperate father is on his way to Kabul to sell one of his children – provides the genesis for the novel's many narratives. The agony of the siblings' separation echoes down generations and across continents.<br><br>" +
+    "Hosseini though, puts it simply: 'The book is kind of like a fairytale turned on its head. You have a very painful rupture at the beginning and then this tearful reconciliation at the end, except the revelations and the reconciliations you're granted aren't the ones you're expecting. Which is how life is, really.<br><br>" +
+    "This isn't how the world appeared in Hosseini's fable-like previous books. Their characters are the kind EM Forster might have classified as 'flat' rather than 'round'. The Kite Runner's Hassan, for example, is, as Hosseini puts it, 'a lovely guy and you root for him and you love him but he's not complicated'. Everyone in the new novel finds themself morally compromised at some point.<br><br>" +
+    "The most stark example of that, he says, 'is the warlord – this sort of evil benevolent lord. And it's something I've seen in Afghanistan a lot, these charismatic, larger-than-life figures who people are simultaneously afraid of, in admiration of, dependent on.<br><br>" +
+    "The central and most resonant line of the novel, though, is spoken not by a person but by a <em>div</em> , a demonic giant of Afghan folklore. When a peasant's beloved son is taken by the creature, he sets out to rescue his child, knowing he will most likely be killed for his audacity. Instead, the <em>div</em> shows him his son playing happily with other children. The father has to decide whether to leave his boy there – happy and provided for – or to take him back to a harrowing and potentially short life in a village blighted by droughts. Despondent, he accuses the <em>div</em> of cruelty. It replies: 'When you have lived as long as I have, you find that cruelty and benevolence are but shades of the same colour.'<br><br>",
 };
-
-$(document).ready(() => {
-  $.get(
-    "https://www.theguardian.com/books/2013/jun/01/khaled-hosseini-kite-runner-interview",
-    (data) => {
-      var content = $(data).find("#maincontent").text();
-      var result = content.replace(/\./g, ".<br>");
-      $("#articleContent").html(result);
-    }
-  );
-});
 
 document.getElementById("maincontent").innerHTML = articlesT(articlesD);
