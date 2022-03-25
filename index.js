@@ -15,7 +15,7 @@ const indexD = {
       author: "J.R.R. Tolkien",
       img: "./Assets/JRR.jpg",
       content:
-        "Learn about J.R.R. Tolkien's inspiration for the Hobbit, from the 1964 BBC interview",
+        "Find out how renown write J.R.R Tolkien, The Hobbit",
       link: "./Articles/a2/a2.html",
     },
     {
@@ -23,7 +23,7 @@ const indexD = {
       author: "Paul Kalanithi",
       img: "./Assets/PK.jpg",
       content:
-        "Lucy Kalanithi recounts her husband Paul Kalanithi's journey through cancer, being a neurosurgeon and a writer",
+        "Keeping Dr.Paul Kalanithi's Voice Alive, Lucy Kalanithi talks about her husband's life ",
       link: "./Articles/a3/a3.html",
     },
     {
@@ -31,7 +31,7 @@ const indexD = {
       author: "Paulo Coelho",
       img: "./Assets/PC.jpg",
       content:
-        "Paulo Coelho discusses his bestseller novel The Alchemist which he wrote in 2 weeks",
+        "Over 35 million copies sold, Paulo Coelho discusses his sleeper hit, The Alchemist",
       link: "./Articles/a4/a4.html",
     },
     {
