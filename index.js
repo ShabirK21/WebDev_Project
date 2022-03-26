@@ -15,7 +15,7 @@ const indexD = {
       author: "J.R.R. Tolkien",
       img: "./Assets/JRR.jpg",
       content:
-        "Find out how renown write J.R.R Tolkien, The Hobbit",
+        "Find out how renown author J.R.R Tolkien got inspired to write, The Hobbit",
       link: "./Articles/a2/a2.html",
     },
     {

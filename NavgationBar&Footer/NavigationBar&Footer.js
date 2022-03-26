@@ -10,6 +10,10 @@ const navbarD = {
       link: "Find Us",
       ref: "#footer",
     },
+    {
+      link: "Report",
+      ref: "../report.html"
+    }
   ],
   extras: [
     { name: "Subscribe", id: "subscribe" },
@@ -78,6 +82,10 @@ window.onscroll = () => {
   } else {
     document.getElementById("scrollBtn").style.display = "none";
   }
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progress-bar").style.width = scrolled + "%";
 };
 
 function topFunction() {

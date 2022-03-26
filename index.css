@@ -12,28 +12,39 @@ main h1 {
   border-bottom: lightgray 2px solid;
   margin-left: 10px;
   font-weight: bold;
-  padding: auto;
 }
 
 main div {
-  margin-top: 50px;
   padding-bottom: 2.5em;
 }
 
 #authorImgs img {
   width: 100%;
   height: auto;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 5px;
 }
 
 #articleCon {
-  margin-top: 10px;
   border-bottom: lightgray 2px solid;
   font-size: 150%;
   align-items: center;
 }
 
+
 #articleLinks {
   text-decoration: none;
   color: black;
+}
+
+#articleCon article h2 {
+  background-color: black;
+  color: whitesmoke;
+  max-width: fit-content;
+}
+
+#articleCon article h3,#articleCon article p {
+  background-color: aquamarine;
+  max-width: fit-content;
 }
