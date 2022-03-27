@@ -43,6 +43,10 @@ main div {
   color: black;
 }
 
+#inner-article-container:hover {
+  background-color: darkblue;
+}
+
 #inner-article-container article h2 {
   background-color: black;
   color: whitesmoke;

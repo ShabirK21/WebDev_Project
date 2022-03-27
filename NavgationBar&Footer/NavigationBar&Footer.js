@@ -5,19 +5,22 @@ const navbarD = {
     {
       link: "Home",
       ref: "../../../index.html",
+      icon: "fa fa-fw fa-home"
     },
     {
       link: "Find Us",
       ref: "#footer",
+      icon: "fa fa-fw fa-map-marker"
     },
     {
       link: "Report",
-      ref: "../report.html"
+      ref: "../report.html",
+      icon: "fa fa-fw fa-book"
     }
   ],
   extras: [
-    { name: "Subscribe", id: "subscribe" },
-    { name: "Recommend a book", id: "recommend" },
+    { name: "Subscribe", id: "subscribe", icon: "fa fa-fw fa-envelope" },
+    { name: "Recommend a book", id: "recommend", icon: "fa fa-fw fa-thumbs-up"  },
   ],
 };
 

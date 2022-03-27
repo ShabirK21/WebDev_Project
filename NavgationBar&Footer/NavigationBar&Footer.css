@@ -19,11 +19,7 @@ header {
   color: black;
 }
 
-#navbarlinks {
-  margin: 0 10px 10px 10px;
-}
-
-#navbarlinks:hover {
+#navbarlinks a:hover {
   background-color: lightgray;
   border-radius: 5px;
 }
