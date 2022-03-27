@@ -1,11 +1,11 @@
 body {
   position: relative;
   min-height: 100vh;
-  padding-bottom: 2.5em;
+  padding-bottom: 3em;
 }
 
 main div {
-  padding-bottom: 2.5em;
+  padding-bottom: 3em;
 }
 
 #authorbook {
@@ -44,4 +44,8 @@ aside img {
   max-width: 1000px;
   max-height: 1000px;
   object-fit: cover;
+}
+
+.imageCaptions {
+  font-size: x-small;
 }

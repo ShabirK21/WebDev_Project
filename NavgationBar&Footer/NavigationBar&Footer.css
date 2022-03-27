@@ -4,18 +4,19 @@
 
 /*Navigation Bar Styling*/
 
+header {
+  background-color: gray;
+  border-bottom: lightgray 2px solid;
+}
+
 #navigationbar div h1 {
   text-align: center;
   margin-top: 5px;
-  border-bottom: lightgray 2px solid;
+  border-bottom: black 2px solid;
 }
 #navigationbar div h1 a {
   text-decoration: none;
   color: black;
-}
-
-#navbarNavAltMarkup {
-  font-size: x-large;
 }
 
 #navbarlinks {
@@ -27,15 +28,10 @@
   border-radius: 5px;
 }
 
-#links {
-  border-bottom: lightgray 2px solid;
-}
-
 .main-btn {
   margin: 10px 10px 0px 10px;
   height: max-content;
   width: max-content;
-  font-size: x-large;
   border-radius: 15px;
 }
 
@@ -43,7 +39,6 @@
   margin: 0px 10px 0px 10px;
   height: max-content;
   width: max-content;
-  font-size: x-large;
   border-radius: 5px;
 }
 
@@ -60,8 +55,7 @@
   flex: 1;
   border-radius: 5px;
   margin-right: 5px;
-  height: 50px;
-  font-size: x-large;
+  max-height: fit-content;
 }
 
 .outer-progress-container {

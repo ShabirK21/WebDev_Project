@@ -8,14 +8,21 @@ body {
   padding-bottom: 2.5em;
 }
 
-main h1 {
-  border-bottom: lightgray 2px solid;
-  margin-left: 10px;
+#pageTitle {
+  border-bottom: 2px solid lightgray;
+}
+
+#pageTitle h1{
   font-weight: bold;
+  margin: 0 10px;
 }
 
 main div {
   padding-bottom: 2.5em;
+}
+
+.container {
+  margin-top: 40px;
 }
 
 #authorImgs img {
@@ -26,25 +33,24 @@ main div {
   border-radius: 5px;
 }
 
-#articleCon {
+#inner-article-container {
   border-bottom: lightgray 2px solid;
-  font-size: 150%;
   align-items: center;
 }
-
 
 #articleLinks {
   text-decoration: none;
   color: black;
 }
 
-#articleCon article h2 {
+#inner-article-container article h2 {
   background-color: black;
   color: whitesmoke;
   max-width: fit-content;
 }
 
-#articleCon article h3,#articleCon article p {
+#inner-article-container article h3,
+#inner-article-container article p {
   background-color: aquamarine;
   max-width: fit-content;
 }
