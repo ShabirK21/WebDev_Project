@@ -44,7 +44,7 @@ main div {
 }
 
 #inner-article-container:hover {
-  background-color: darkblue;
+  text-decoration: underline;
 }
 
 #inner-article-container article h2 {
