@@ -16,6 +16,12 @@ body {
   margin: 0 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    padding-bottom: 10em;
+  }
+}
+
 main div {
   padding-bottom: 2.5em;
 }
