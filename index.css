@@ -1,18 +1,17 @@
 * {
-  font-family: "Guardian Text Egyptian Web", Georgia, serif;
+  font-family: 'Guardian Text Egyptian Web', Georgia, serif;
 }
 
 body {
   position: relative;
   min-height: 100vh;
-  padding-bottom: 2.5em;
 }
 
 #pageTitle {
   border-bottom: 2px solid lightgray;
 }
 
-#pageTitle h1{
+#pageTitle h1 {
   font-weight: bold;
   margin: 0 10px;
 }

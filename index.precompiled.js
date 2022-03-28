@@ -29,10 +29,10 @@ templates['index'] = template({"1":function(container,depth0,helpers,partials,da
         return undefined
     };
 
-  return "<section id=\"pageTitle\">\n  <h1>\n  "
-    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"Ptitle") || (depth0 != null ? lookupProperty(depth0,"Ptitle") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"Ptitle","hash":{},"data":data,"loc":{"start":{"line":3,"column":2},"end":{"line":3,"column":12}}}) : helper)))
+  return "\n<section id=\"pageTitle\">\n  <h1>\n  "
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"Ptitle") || (depth0 != null ? lookupProperty(depth0,"Ptitle") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"Ptitle","hash":{},"data":data,"loc":{"start":{"line":4,"column":2},"end":{"line":4,"column":12}}}) : helper)))
     + "\n</h1>\n</section>\n<div class=\"container\">\n"
-    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"books") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":7,"column":2},"end":{"line":22,"column":11}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"books") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":8,"column":2},"end":{"line":23,"column":11}}})) != null ? stack1 : "")
     + "</div>";
 },"useData":true});
 })();
